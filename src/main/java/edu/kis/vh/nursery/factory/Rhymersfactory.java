@@ -13,3 +13,5 @@ public interface Rhymersfactory {
 	public defaultCountingOutRhymer GetHanoiRhymer();
 
 }
+
+// kombinacja alt + <- oraz alt + -> przelacza nas miedzy otwartymi plikami
