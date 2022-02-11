@@ -40,32 +40,65 @@ public class IntLinkedList {
 
 }
 
+/**
+ * Klasa zawiera elementy listy dwukierunkowej
+ */
 class Node {
 
 	private int value;
 	private Node prev;
 	private Node next;
 
+	/**
+	 * Ustawienie początkowej wartości noda
+	 *
+	 * @param i
+	 */
 	public Node(int i) {
 		value = i;
 	}
 
+	/**
+	 * Pobranie wartości noda
+	 *
+	 * @return value
+	 */
 	public int getValue() {
 		return value;
 	}
 
+	/**
+	 * Pobranie następnego noda
+	 *
+	 * @return next
+	 */
 	public Node getNext() {
 		return next;
 	}
 
+	/**
+	 * Ustawienie wartosci nastepnego ndoa
+	 *
+	 * @param next
+	 */
 	public void setNext(Node next) {
 		this.next = next;
 	}
 
+	/**
+	 * Pobranie poprzedniego noda
+	 *
+	 * @return
+	 */
 	public Node getPrev() {
 		return prev;
 	}
 
+	/**
+	 * Ustawienie wartosci poprzedniego noda
+	 *
+	 * @param prev
+	 */
 	public void setPrev(Node prev) {
 		this.prev = prev;
 	}
